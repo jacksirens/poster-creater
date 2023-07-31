@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flex {
+  display: flex;
+}
+
+#poster-container {
+  overflow: hidden;
+}
+
+.weather-item {
+  width: 225px;
+  text-align: center;
+}
+.weather-container {
+  width: 1177px;
+  margin: 250px auto 0;
+  margin-left: 112px;
+  gap: 14px;
+}
+.weather-time-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fff;
+  text-shadow:  3px 3px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 60px;
+}
+
+.weather-item-icon {
+  margin-bottom: 80px;
+}
+
+.weather-item-desc {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 45px;
+  text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.scale {
+  transform: scale(0.5);
+  transform-origin: left top;
+  width: 724px;
+  height: 543px;
+}
+
+.scroll-container {
+  max-height: 100vh;
+  overflow: auto;
+  width: calc(100vw - 724px);
+  min-width: 300px;
+}
+
+.shower-container {
+  box-sizing: border-box;
+  word-break: break-all;
+  width: 80%;
+    margin: 60px auto 0;
+    padding-left: 200px;
+    padding-right: 40px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.shower-item-img {
+  width: 200px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.shower-item-text {
+  font-size: 28px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 40px;
+  text-shadow:  2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.shower-item-text div {
+  margin-top: 10px;
+}
+
+.shower-item-text div:first-child {
+  margin-top: 0px;
+}
